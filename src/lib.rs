@@ -1,5 +1,5 @@
-mod decrypt;
-mod frequency_analysis;
+pub mod decrypt;
+pub mod frequency_analysis;
 
 #[cfg(test)]
 mod tests {
